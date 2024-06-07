@@ -38,7 +38,7 @@ const MyPage = () => {
             <Header />
             <div>
                 <Typography variant="h4" gutterBottom>
-                    마이 페이지 개발 중입니다.
+                    마이 페이지 개발 중입니다...
                 </Typography>
                 <Accordion>
                     <AccordionSummary expandIcon={<ExpandMoreIcon />}>
