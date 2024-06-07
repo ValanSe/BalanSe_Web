@@ -39,7 +39,7 @@ const MyQuizzesPage = () => {
             ) : (
               <div style={{ width: '100%', height: '250px', backgroundColor: '#ddd' }}></div> // 빈 사진
             )}
-            <h3 style={{ marginTop: '10px', marginBottom: '5px', color: 'white' }}>{quiz.content || '로그인 하세요.'}</h3> {/* 데이터 없음 메시지 */}
+            <h3 style={{ marginTop: '10px', marginBottom: '5px', color: 'white' }}>{quiz.content || '로그인 하세요...'}</h3> {/* 데이터 없음 메시지 */}
           </div>
         ))}
       </div>
